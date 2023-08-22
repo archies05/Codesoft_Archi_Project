@@ -1,0 +1,390 @@
+.fa-solid{
+    color: #D2352C !important;
+}
+
+
+html,body{
+    overflow-x: hidden;
+}
+.login{
+    background-color: #D2352C;
+    color: white;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.navbar-brand{
+    font-size: 30px !important;
+    font-weight: bold;
+}
+
+.nav-item{
+    font-size: 20px;
+    padding: 0px 10px;
+    font-weight: 600;
+}
+
+.nav-item a:hover{
+    font-size: 20px;
+    color: #D2352C;
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+.navbar{
+    background-color:(255, 246, 230);
+}
+
+span{
+    font-weight: bolder;
+}
+
+.faster{
+    background-color: #D2352C;
+    color: white;
+    width: 150px;
+    padding: 4px;
+    border-radius: 20px;
+    /* padding-top: 10px; */
+}
+
+.header-text{
+    font-size: 60px !important;
+    font-weight: 700;
+}
+
+
+
+.getstarted{
+    background: #D2352C;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.watchvideo{
+    background:transparent;
+    border: none;
+    color: #D2352C;
+
+}
+
+.intro-img{
+    width: 180% !important;}
+
+#footer h4{
+    color: #D2352C !important;
+}
+
+.fa-brands{
+    color: #D2352C;
+}
+
+
+
+/* section color change */
+#intro{
+    height: 100vh !important;
+    background: linear-gradient(to bottom,#ffd7de,white);
+}
+
+#delivery{
+    background: linear-gradient(to top ,#ffd7de,white);
+
+}
+
+#menu{
+    background: linear-gradient(to bottom ,#ffd7de,white);
+    /* height: 80vh; */
+}
+
+#review{
+    background: linear-gradient(to top ,#ffd7de,white) !important;
+    /* height: 80vh; */
+}
+
+#downloadapp{
+    background: linear-gradient(to bottom ,#ffd7de,white);
+    /* height: 80vh; */
+}
+
+#footer{
+    background: linear-gradient(to top ,#ffd7de,white);
+}
+
+.box{
+    position: relative;
+    left: -10%  ;
+}
+
+@media only screen and (max-width: 996px) {
+
+    .header-text{
+        font-size: 50px !important;
+    }
+
+    .img-intro{
+        margin-top: 5%;
+    }
+
+    /* #delivery{
+        margin-top: 15%;
+    } */
+    
+}
+.pure-menu-item a:hover{
+    background-color: #ffafbc;
+    transition: 0.3s;
+}
+
+#red{
+    height:300px;
+    width:440px;
+    border-radius: 20%;
+    background-color: rgb(224,73,73);
+}
+#chef{
+    height:450px;
+    width:400px;
+    position: absolute;
+    top:-150px;
+  }
+#vegetables{
+    height:250px;
+    width:300px;
+    border-radius: 48%;   
+    position: absolute;
+    top:50px;
+    left:190px ;
+}
+#broccoli{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 140px;
+
+    
+}
+/* #pic2
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+} */
+#star{
+    margin-left: 48px;
+}
+/* #username
+{
+    position: absolute;
+    left: 800px;
+} */
+
+.phone{
+    background-color:rgba(255, 181, 193,0.4);
+    height: 350px;
+    width: 1250px;
+    position: relative;
+    top:50px;
+    left:50px;
+    border-radius: 30px;
+    backdrop-filter: blur(100px);
+    
+
+}
+#text5
+{
+    padding-left: 50px;
+    padding-top: 100px;
+}
+#text6
+{
+    padding-left: 50px;
+   position: absolute;
+   top: 70px;
+   color: rgb(163, 20, 32);
+}
+#para2
+{
+    padding-left: 50px;
+}
+ 
+#button{
+    margin-left: 50px;
+    height: max-content;
+    width: max-content;
+}
+#playdiv{
+    height:63px;
+    width:130px;
+    border-radius: 20px;
+    background-color: rgb(32,58,80);
+    color: white;
+    position: absolute;
+    left:692px;
+    bottom:100px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+#playdiv2{
+    height:63px;
+    width:130px;
+    border-radius: 20px;
+    background-color: rgb(32,58,80);
+    color: white;
+    position: absolute;
+    left:692px;
+    bottom:180px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+#whitephone{
+height: 290px;
+width: 200px;
+background-color: aliceblue;
+position: absolute;
+top: 60px;
+left: 850px;
+border-radius: 20px;
+}
+
+#yellowbox{
+    position: absolute;
+    top: 70px;
+    left: 18px;
+    height: 70px;
+    width:165px;
+    border-radius: 10px;
+    
+    background-color: rgb(238, 232, 173);
+}
+#app{
+  padding-left: 20px;
+  padding-top: 25px;
+}
+#app2
+{
+  padding-left: 100px;
+  position: relative;
+  top: 2px;
+ 
+
+}
+/* #flex{
+   
+
+} */
+/* #yellowheading
+{
+  position: absolute;
+  top:150px ;
+  left: 18px;
+} */
+#pizza{
+   /* height: 20px;
+  width:70px;  */
+  position: absolute;
+  top: 175px;
+  left: 25px;
+  font-size: x-small;
+} 
+ #burger{
+  /* height: 20px;
+  width:70px; */
+  position: absolute;
+  top: 175px;
+  left: 100px;
+  font-size: x-small;
+  
+}
+/* #phoneheading{
+  position: absolute;
+  top:210px ;
+  left: 18px;
+} */
+#phonepic{
+  height:50px;
+  width:70px;
+  position: absolute;
+  top: 235px;
+  left: 20px;
+}
+#phonepic2{
+  height:50px;
+  width:70px;
+  position: absolute;
+  top: 235px;
+  left: 115px;
+}
+/* #yellowpic{
+  height:60px;
+  width:60px;
+  border-radius: 10px;
+  position: absolute;
+  bottom:2px;
+  top:px ;
+  left: 95px; 
+}
+#yellowheading2{
+padding-left: 10px;
+padding-top: 15px;
+font-size: smaller;
+}
+#phoneheading2{
+  padding-left: 57px;
+  font-size: smaller;
+  position: absolute;
+  top: 25px;
+ }*/
+ #phoneheading2{
+    /* padding-left: 70px; */
+    font-size: smaller;
+   
+    position: relative;
+    bottom: 20px;
+    left: 46px;
+   }
+   #yellowpic{
+    height:60px;
+    width:60px;
+    border-radius: 10px;
+    position: absolute;
+    bottom:2px;
+   
+    left: 95px; 
+  }
+  #playstore{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 61px;
+    top: 75px;
+}
+#applestore{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 8px;
+    left: 15px; 
+
+}
+#phonegirl{
+    height: 200px ;
+    width: fit-content;
+    position: relative;
+    bottom: 137px;
+    left: 357px;
+}
+#fastdelivery{
+   position: relative;
+   top: -59px;
+}
+.fastid{
+    position: relative;
+    top: -114px;
+}
