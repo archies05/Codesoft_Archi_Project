@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.center {
+    text-align: center;
+}
+
+.calculator {
+    padding: 20px;
+    background-color: #333;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    box-shadow: 10px 15px 30px #1e1e1e,
+                 -3px -3px 8px black;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.row input {
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #555;
+    border-radius: 10px;
+    height: 55px;
+    width: 260px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 15px !important;
+    font-size: 40px;
+    background-color: #222;
+    color: #444;
+    background-color: rgb(125,192,206);
+    box-shadow: inset 2px 2px 25px #3fc4de,
+                inset -2px -2px 25px  #3fc4de ;
+    text-align: end;
+    
+}
+
+.button,.ac,.ce,#EQ,#percentagebtn {
+    margin: 8px;
+    border: 2px solid #555;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    font-size: 24px;
+    background-color: #444;
+    color: white;
+    transition: background-color 0.2s;
+    box-shadow: inset 3px 3px 20px rgb(36, 36, 36),
+                inset -3px -3px  20px rgb(84, 84, 84);
+    border-radius: 10px;
+
+}
+
+#EQ {
+    width: 140px;
+    font-size: 28px;
+    background-color: rgb(225,115,27);
+    box-shadow: inset 3px 3px 20px #b24704,
+    inset -3px -3px  20px  #e15e0c;
+    border-radius: 10px;
+
+}
+
+.button:hover {
+    background-color: #7f4949;
+}
+.red{
+    background-color: rgb(212,13,18)
+}
+.ac,.ce{
+    background-color: rgb(224,17,17) !important;
+  box-shadow: inset 3px 3px 15px rgb(133, 4, 4),
+                inset -3px -3px 15px  rgb(190, 3, 3);
+}
+.ac:hover,.ce:hover{
+    background-color: #d83838;
+}
