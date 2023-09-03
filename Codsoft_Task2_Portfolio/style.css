@@ -1,0 +1,420 @@
+*{
+    /* background-color: #101111; */
+    /* background-color: #101111; */
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html::-webkit-scrollbar {
+    width: 0.6vw;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #b41085;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #7e7e7e;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.7);
+}
+
+#intro {
+    height: 100vh;
+    background: #101111;
+     /* background-image: url(https://images.unsplash.com/photo-1527151888350-329ba03a1936?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80)!important; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+    z-index: -1;
+    background-position: bottom;
+
+}
+
+.fa-bars{
+    color: #9f9f9f !important;
+    border:none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar {
+
+    background: transparent;
+    position: sticky;
+    top: 0;
+    color: white;
+    transition: background-color 0.5s;
+
+}
+.navbar.scrolled {
+    background: rgba(48, 47, 47, 0.3);
+    color: black;
+    backdrop-filter: blur(8px);
+
+}
+
+.nav-item a{
+    color: white !important;
+    padding: 0px 25px !important;
+    font-size:15px !important;
+    font-weight: 600;
+    transition: .4s;
+    
+}
+
+.nav-item a:hover{
+    color: #b41085 !important;
+    transform: scale(1.3);
+    transition: .4s;
+}
+
+.navbar-brand{
+font-family: cursive !important;
+font-weight: bold;
+  font-size: 26px !important;
+  color: white !important;
+  letter-spacing: 4px;
+}
+
+.header-img {
+    width: 95%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 30px #b41085,
+                -1px -1px 30px #b41085;
+    opacity:0.7 !important;
+  
+    
+}
+
+
+
+
+.h1-head{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.h1-greet{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.multiple-text span{
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 6px !important; 
+    
+}
+#about{
+    background-color: #101111;
+    color: white;
+}
+#about h1,#resume h1 ,#contact h1,#skills h1,#projects h1{
+    color: white;
+    font-size: 43px;
+    font-weight: 700;
+}
+#about h6,#services h6{
+    color: #888;
+}
+#about h4{
+    color: #b41085;
+}
+#about h2{
+    color: white;
+}
+
+.about-img{
+    width:75%;
+
+}
+.about-description{
+    color: #888;;
+}
+.cv-btn{
+    border-radius: 30px !important;
+    background-color: #b41085;
+    color: white;
+    padding: 10px 35px ;
+    transition: 0.5s !important;
+    
+}
+
+.resume-section h3{
+    color: white;
+}
+
+.resume-section h5{
+    color: #b41085;
+    background-color: #161616 !important;
+}
+.resume-section p{
+    color: #9f9f9f;
+    background-color: #161616 !important;
+    margin-top: 3% !important;
+}
+
+.resume-section span{
+    color: #9f9f9f;
+    background-color: #161616 !important;
+}
+
+.box{
+    background-color: #161616 !important;
+    padding: 20px 10px!important;
+    border-bottom:1px solid #9f9f9f  !important;
+    border-left: 3px solid #b41085;
+}
+
+#resume, #skills,#contact,#services,#projects{
+    background-color: #101111;
+    color: white;
+}
+
+#contact h6,#projects h6{
+    color: #9f9f9f;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 996px) {
+    .fa-brands{
+        margin-top: 20px !important;
+    }
+    hr{
+        display: none;
+    }
+    .about-img{
+        margin-bottom: 8% !important;
+    }
+
+    .nav-item a{
+        float: right !important;
+        padding: 5px !important;
+    }
+    .srvc{
+        margin-top: 3% !important;
+    }
+    .h1-head{
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .h1-greet{
+        font-size: 25px;
+        font-weight: 400;
+        
+    }
+
+    .multiple-text span{
+        font-size: 25px !important;
+        font-weight: 600;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+        letter-spacing: 2px !important; 
+        
+    }
+    .header-img{
+        margin-top: 20%;
+        width: 70%;
+
+    }
+    
+}
+
+/* skills */
+.progress {
+    width: 100%;
+    height: 10px !important;
+    background-color: rgb(86, 86, 86) !important;
+
+
+}
+
+.progress-bar {
+    width: 0%;
+    position: relative;
+    height: 100%;
+    background-color: #b41085 !important;
+    transition: 1s all !important;
+    opacity: 1 !important;
+}
+
+.hp {
+    transition: 1s all !important;
+    opacity: 0 !important;
+    width: 0 !important;
+}
+
+
+#skills h6,#skills p,#skills h1{
+    color: white;
+}
+
+.animated-bar{
+    background-color: #b41085;
+    content: '';
+    display: block;
+    height: 4px;
+    left: 0;
+    margin: 0 auto 0 auto;
+    position: relative;
+    right: 0;
+    width: 75px;
+}
+
+
+.animated-bar:before ,.animated-bar:after{
+    background-color: #101010;
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 6px;
+}
+
+.contact-form .form-group .form-control,.contact-form .form-group .form-control::placeholder {
+    color: #777;
+}
+.contact-form .form-group .form-control {
+    background-color: #161616;
+    border: none;
+    border-bottom: 1px solid #1d1d1d;
+    border-radius: 0;
+    font-size: 15px;
+    height: 44px;
+    padding: 9px 14px;
+}
+
+.button-main{
+    background-color: #b41085 !important;
+    color:  white !important;
+    padding: 10px 35px !important;
+    border-radius: 30px !important;
+    transition: 0.5s !important;
+}
+
+textarea{
+    resize: horizontal !important;
+    height: 9em !important;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[contenteditable].form-control:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: #eee !important;
+}
+
+.info-description{
+    color: #9f9f9f;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+#contact .fa-solid , #contact .fa-regular{
+    color: #b41085;
+}
+
+.srvc{
+    background: rgba(48, 47, 47, 0.3);  
+    backdrop-filter: blur(8px);
+}
+
+#footer{
+    background-color: #101111;
+    color: #9f9f9f;
+    font-size:small;
+}
+
+.button-main:hover,.cv-btn:hover{
+    background-color: #760a57 !important;
+}
+
+.fa-brands{
+    transition: 0.5s !important;
+}
+.fa-brands:hover{
+    color: #b41085;
+   scale: 1.5;
+
+}
+
+.prjct {
+
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    aspect-ratio: 3/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid rgb(52, 51, 51);
+}
+
+
+.prjct img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.child {
+    aspect-ratio: 3/2;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+
+
+}
+.prjct .child a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.prjct:hover .child {
+    opacity: 1;
+}
+
+
+.prjct .child a:hover {
+    color: #b41085;
+    scale: 1.05;
+    transition: 0.2s;
+}
+
+
