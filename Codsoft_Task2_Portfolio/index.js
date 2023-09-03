@@ -42,6 +42,7 @@ ScrollReveal().reveal('.about-head,.about-title,.contact-head,.resume-head,.h1-h
 ScrollReveal().reveal('.about-description', { origin: 'right' });
 ScrollReveal().reveal('.fa-brands', { origin: 'bottom', delay: 300, interval: 150, distance: '30px' });
 ScrollReveal().reveal('.animated-bar,.form-group', { scale: 0.6, interval: 150 });
+ScrollReveal().reveal('.prjct', { scale: 0.4, interval: 180 });
 // ScrollReveal().reveal('.button-main', { origin: 'left' ,distance:'90px'});
 ScrollReveal().reveal('.srvc',{origin:'bottom',interval:180,distance:'90px'});
 
