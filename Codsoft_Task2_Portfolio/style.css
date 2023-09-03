@@ -199,7 +199,11 @@ body,html{
     .about-img{
         margin-bottom: 8% !important;
     }
+    
 
+    .navbar {
+        backdrop-filter: blur(6px);
+    }
     .nav-item a{
         float: right !important;
         padding: 5px !important;
@@ -216,6 +220,9 @@ body,html{
         font-size: 25px;
         font-weight: 400;
         
+    }
+    .experience{
+        margin-top:3% !important;
     }
 
     .multiple-text span{
@@ -416,5 +423,4 @@ input[type=number]:focus,
     scale: 1.05;
     transition: 0.2s;
 }
-
 
